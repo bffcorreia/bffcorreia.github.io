@@ -1,1 +1,152 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Bruno Correia</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center white-text">Hi guys! I'm Bruno,</h1>
+
+        <div class="row center mt-50">
+          <img class="circle z-depth-3 contact-photo" src="profile.jpg" data-anim-src="profile-anim.gif">
+        </div>
+        
+        <div class="row center">
+          <h5 class="header light">an Android Developer and a Peanut Butter addicted.</h5>
+        </div>
+
+        <div class="container-block valign-wrapper center-align">
+          <a class="connect" target="_blank" href="https://github.com/bffcorreia">
+            <i class="fa fa-github social-icon mr-15"></i>
+          </a>
+
+          <a class="connect" target="_blank" href="https://twitter.com/bffcorreia">
+            <i class="fa fa-twitter social-icon mr-15"></i>
+          </a>
+
+          <a class="connect" target="_blank" href="https://www.linkedin.com/in/bffcorreia">
+            <i class="fa fa-linkedin social-icon mr-15"></i>
+          </a>
+
+          <a class="connect" target="_blank" href="https://medium.com/@bffcorreia">
+            <i class="fa fa-medium social-icon mr-15"></i>
+          </a>
+
+          <a class="connect" href="mailto:bffcorreia@gmail.com">
+            <i class="fa fa-envelope social-icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text text-accent-4"><i class="material-icons">android</i></h2>
+            <h5 class="center">Android</h5>
+
+            <p class="center light">Developing <b>mobile applications</b> is one of my main skills. I focus on Android since I'm an <b>open source</b> guy. Moreover, as a regular user, I want to build applications that can improve lifes on a daily basis.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text text-accent-4"><i class="material-icons">dashboard</i></h2>
+            <h5 class="center">Architecture</h5>
+
+            <p class="center light">I love <b>architecture design</b>. <br>It's a key step when we start building an application and it boosts quality by promoting the development of <b>testable</b> and <b>mantainable</b> software.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text text-accent-4"><i class="material-icons">settings_input_component</i></h2>
+            <h5 class="center">Integration</h5>
+
+            <p class="center light">Software integration also appeals to me. Better integration strategies lead to better <b>decoupling</b> (switching between services should'n be a nightmare) which improves the chance to <b>reuse code</b>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container small valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">I like to make friends</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+            <h3><i class="fa fa-paw teal-text text-accent-4"></i></h3>
+          <h4>About Me</h4>
+          <p class="left-align light">I'm indulged to be part of a community that builds technology, endeavoring to provide better life quality for every living thing. Although I've been developing Android for a few years, I’m receptive to new and challenging adventures that grant me the privilege to keep improving and contribute to this group. I love cars, dogs, food, sports and a good adrenaline injection of punk rock. I can't live without two essential things: eating peanut butter and drinking a good wine with my friends.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container small valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Lets take a walk...</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="footer-copyright teal darken-2">
+    <div class="container grey-text text-lighten-4 small-padding">
+    Copyright © 2016 <a href="#">Bruno Correia</a>
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $(".contact-photo").hover(
+        function() {
+          $(this).data("src", $(this).attr("src"));
+          $(this).attr("src", $(this).data("anim-src"));
+        },
+        function() {
+          $(this).attr("src", $(this).data("src"));
+        }                         
+      );
+  }); 
+  </script>
+  </body>
+</html>
