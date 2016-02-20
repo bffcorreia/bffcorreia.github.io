@@ -99,12 +99,6 @@ body {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
     top: 0;
   }
 }
