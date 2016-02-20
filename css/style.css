@@ -105,7 +105,7 @@ body {
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 5%;
+    top: 0;
   }
 }
 
