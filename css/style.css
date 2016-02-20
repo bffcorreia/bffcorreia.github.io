@@ -42,22 +42,6 @@ p {
   width: 100%;
 }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -71,8 +55,8 @@ footer.page-footer {
 
 .contact-photo {
   border: 5px solid #ffffff;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 .social-icon {
@@ -107,4 +91,27 @@ footer.page-footer {
 
 body {
     border-top: 5px solid #1de9b6;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 5%;
+  }
+}
+
+@media only screen and (min-width : 600px) {
+  .contact-photo {
+    width: 250px;
+    height: 250px;
+  }
 }
