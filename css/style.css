@@ -28,14 +28,14 @@ p {
 }
 
 .parallax-container {
-  min-height: 650px;
+  min-height: 640px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
 
 .small{
-  min-height: 500px;
+  min-height: 440px;
 }
 
 .parallax-container .section {
