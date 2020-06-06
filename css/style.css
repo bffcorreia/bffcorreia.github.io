@@ -89,8 +89,16 @@ footer.page-footer {
   display: block;
 }
 
-body {
-    border-top: 5px solid #1de9b6;
+/* Alert */
+.alert {
+  background-color: #1de9b6;
+  padding: 1em;
+}
+
+.alert-text {
+  color: #ffffff;
+  margin-right: 30px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width : 992px) {
