@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.github.bffcorreia.minimaltabata",
+    "sha256_cert_fingerprints":
+    ["FD:1A:D7:FD:1C:0D:20:CB:95:FD:77:62:C8:A1:7A:BF:04:7D:42:76:E7:09:01:80:0F:E7:7E:E8:64:E4:4B:6F"]
+  }
+}]
